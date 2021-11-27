@@ -1,14 +1,14 @@
 {
   "private": true,
-  "name": "remix-shop",
-  "description": "",
-  "license": "",
+  "name": "remix-tailwind-starter",
+  "description": "Starter for remix.run",
+  "license": "MIT",
   "scripts": {
     "build": "remix build",
     "dev": "remix dev",
     "postinstall": "remix setup node && husky install",
     "lint": "eslint --ext js,jsx,ts,tsx .",
-    "validate": "./validate.sh"
+    "validate": "./validate.sh",
     "typecheck": "tsc -b",
     "test": "jest"
   },
