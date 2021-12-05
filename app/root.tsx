@@ -10,8 +10,10 @@ import {
 } from "remix";
 import type { LinksFunction } from "remix";
 
+import styles from "./tailwind.css";
+
 export const links: LinksFunction = () => {
-    return [{ rel: "stylesheet", href: "/tailwindcss" }]
+    return [{ rel: "stylesheet", href: styles }];
 };
 
 

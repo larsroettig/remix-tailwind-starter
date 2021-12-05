@@ -5,4 +5,5 @@ node_modules
 .output
 
 public/build
+/app/tailwind.css
 api/build
